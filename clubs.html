@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>課表與社團安排｜我的大學生活指南</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>'大學生活'怎麼讓'大學生'活</h1>
+        <p>明明課業社團兩手抓，我是如何不只活下來，更能充實生活的</p>
+    </header>
+
+    <!-- 全域導覽列[cite: 1] -->
+    <nav>
+        <a href="index.html">首頁導覽</a>
+        <a href="clubs.html" class="active">學校生活</a>
+        <a href="lifestyle.html">日常生活小撇步</a>
+        <a href="social.html">你真的認識我嗎</a>
+    </nav>
+
+    <main>
+        <!-- 第一區塊：社團介紹與清單 -->
+        <section>
+            <h2>那些我所在意的課業與社團</h2>
+            <img src="./src/img_3.JPG" alt="參與社團活動的合照" class="banner-img">
+            <p>大學除了學業相干的必修學分以外，<strong>社團</strong>也是我大學生活中不可缺少的要素。</p>
+
+            <ul>
+                <li><strong>慈幼社</strong>：擔任562/563營隊幹部 - <strong>活動長</strong>，負責活動執行與發號施令。</li>
+                <li><strong>雀兒輕音社</strong>：參與每學期的公演，預備演出<strong>上台呈現與分享。</strong></li>
+            </ul>
+
+            <h3>在社團與課業中，要如何取得平衡？</h3>
+            <ol>
+                <li><strong>利用白天零碎空堂</strong>：<br>事情不一定要一個很長的時段才可以進行，利用碎片的時間也可以完成課內作業或是社團的職務。</li>
+                <li><strong>學會安排優先次序</strong>：<br>刻意把時間專門留給課業以及社團，保留完整的時間來專注處理，而且不隨意調動當下所要處理的內容。</li>
+                <li><strong>依照實際情況彈性調整</strong>：<br>考前就多花時間在唸書，社團的事情就可以暫緩。</li>
+            </ol>
+        </section>
+
+        <!-- 第二區塊：完整大學課表與課後社團安排[cite: 2] -->
+        <section id="schedule">
+            <h2>我的115-1課表</h2>
+            <p>以下是我這學期的上課課表，可以看到課程的分布與時段：</p>
+
+            <table class="timetable">
+                <thead>
+                    <tr>
+                        <th>節次</th>
+                        <th>一</th>
+                        <th>二</th>
+                        <th>三</th>
+                        <th>四</th>
+                        <th>五</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- 第 1 節 -->
+                    <tr>
+                        <td class="period-col">1</td>
+                        <td class="cell-empty"></td>
+                        <td class="cell-empty"></td>
+                        <td rowspan="2" class="course-ds">資料結構</td>
+                        <td class="cell-empty"></td>
+                        <td class="cell-empty"></td>
+                    </tr>
+                    <!-- 第 2 節 -->
+                    <tr>
+                        <td class="period-col">2</td>
+                        <td class="course-ds">資料結構</td>
+                        <td class="course-oop">物件導向程式設計</td>
+                        <td class="cell-empty"></td>
+                        <td class="cell-empty"></td>
+                    </tr>
+                    <!-- 第 3 節 -->
+                    <tr>
+                        <td class="period-col">3</td>
+                        <td rowspan="2" class="course-edu">課程設計與教學</td>
+                        <td rowspan="2" class="course-mentor">班週會及導師時間</td>
+                        <td rowspan="2" class="course-circuit">電路學(一)</td>
+                        <td rowspan="2" class="course-rel">人際關係</td>
+                        <td rowspan="2" class="course-oop">物件導向程式設計</td>
+                    </tr>
+                    <!-- 第 4 節 -->
+                    <tr>
+                        <td class="period-col">4</td>
+                    </tr>
+                    <!-- 午休 N -->
+                    <tr>
+                        <td class="period-col">N</td>
+                        <td colspan="5" class="cell-noon"></td>
+                    </tr>
+                    <!-- 第 5 節 -->
+                    <tr>
+                        <td class="period-col">5</td>
+                        <td rowspan="2" class="course-eng">全球及永續議題英文(一)</td>
+                        <td class="cell-empty"></td>
+                        <td rowspan="2" class="course-elec">電子學(一)</td>
+                        <td rowspan="3" class="course-lab">電子學實習(一)</td>
+                        <td rowspan="2" class="course-co">計算機組織</td>
+                    </tr>
+                    <!-- 第 6 節 -->
+                    <tr>
+                        <td class="period-col">6</td>
+                        <td class="cell-empty"></td>
+                    </tr>
+                    <!-- 第 7 節 -->
+                    <tr>
+                        <td class="period-col">7</td>
+                        <td class="course-circuit">電路學(一)</td>
+                        <td class="cell-empty"></td>
+                        <td rowspan="2" class="course-web">網頁程式設計</td>
+                        <td class="cell-empty"></td>
+                    </tr>
+                    <!-- 第 8 節 -->
+                    <tr>
+                        <td class="period-col">8</td>
+                        <td class="course-web">網頁程式設計</td>
+                        <td class="cell-empty"></td>
+                        <td class="course-elec">電子學(一)</td>
+                        <td class="cell-empty"></td>
+                    </tr>
+                    <!-- 第 9 節 -->
+                    <tr>
+                        <td class="period-col">9</td>
+                        <td class="course-co">計算機組織</td>
+                        <td class="cell-empty"></td>
+                        <td class="cell-empty"></td>
+                        <td class="cell-empty"></td>
+                        <td class="cell-empty"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 那些建構劉竣銓的碎片們 | 網頁程式設計期中專案</p>
+    </footer>
+</body>
+
+</html>

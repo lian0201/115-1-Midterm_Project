@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生活樣態與社群 | 我的大學生活指南</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>除了學校之外，我的那些生活碎片</h1>
+        <p>走出教室與校園之外，記錄日常片段以及那些值得被好好收藏的記憶們</p>
+    </header>
+
+    <nav>
+        <a href="index.html">首頁導覽</a>
+        <a href="clubs.html">學校生活</a>
+        <a href="lifestyle.html">日常生活小撇步</a>
+        <a href="social.html" class="active">你真的認識我嗎</a>
+    </nav>
+
+    <main class="container">
+        <!-- 區塊一：我的生活樣態 -->
+        <section>
+            <h2>🌿 我的生活樣態</h2>
+            <p>寫程式需要邏輯，但生活需要留白。這是我平常最真實的三種日常狀態：</p>
+            <div class="vibe-grid">
+                <div class="vibe-card">
+                    <h3>📷 隨手紀錄生活光影</h3>
+                    <p>習慣用手機或相機捕捉下課後的夕陽、巷弄咖啡廳的角落，把平凡的日子留成有溫度的畫面。</p>
+                </div>
+                <div class="vibe-card">
+                    <h3>☕ 咖啡廳與深夜食堂探險</h3>
+                    <p>比起待在宿舍，更喜歡找間有氣氛的小店戴上耳機做事，或是跟朋友在宵夜攤聊到半夜。</p>
+                </div>
+                <div class="vibe-card">
+                    <h3>🎧 音樂與散步充電模式</h3>
+                    <p>遇到卡關或疲憊時，習慣去河濱或街頭走走吹風，讓大腦從程式碼切換回生活頻道。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 區塊二：日常生活照（點擊可開啟放大燈箱） -->
+        <section>
+            <h2>🎞️ 日常生活照</h2>
+            <p>滑鼠移到照片上預覽，點擊照片可以放大查看完整故事：</p>
+            <div class="photo-grid">
+                <div class="photo-card" onclick="openLightbox(this)">
+                    <img src="./src/img_7.JPG" alt="日常照片 1">
+                    <div class="photo-overlay">
+                        <h4>和許久未見的高中同學一起出遠門</h4>
+                        <p>許久沒見，總是有許多事情想要分享和更新。就把這樣的話語跟想念帶到距離高雄的彼岸-宜蘭，不只是單純玩樂跟開心，更是好好相處、聊天、分享的一段時光。</p>
+                    </div>
+                </div>
+
+                <div class="photo-card" onclick="openLightbox(this)">
+                    <img src="./src/img_8.JPG" alt="日常照片 2">
+                    <div class="photo-overlay">
+                        <h4>逃離生活的野餐局</h4>
+                        <p>一群大學生好不容易考完期中考，終於有時間可以好好放鬆。一邊吃著點心、一邊分享自己的近況跟心情，知道雖然彼此的生活各自忙碌，但我們卻仍然可以好好接住彼此。</p>
+                    </div>
+                </div>
+
+                <div class="photo-card" onclick="openLightbox(this)">
+                    <img src="./src/img_9.jpg" alt="日常照片 3">
+                    <div class="photo-overlay">
+                        <h4>社團一起出門玩</h4>
+                        <p>平常大家總是在社團裡面忙進忙出的，也都為了各樣的活動籌備而努力。社團也紀念大家的付出，舉辦了社遊。一大群人一起南下台中，度過了美好且珍貴的兩天一夜！</p>
+                    </div>
+                </div>
+
+                <div class="photo-card" onclick="openLightbox(this)">
+                    <img src="./src/img_10.jpg" alt="日常照片 4">
+                    <div class="photo-overlay">
+                        <h4>享受和家人的精心時刻</h4>
+                        <p>在台北讀書的這一段時間內，與高雄家人的聯繫絕對不如在我在高雄般的頻繁。每次回高雄，我總是想著一定要好好跟家人待在一起，好好享受這個短暫但是卻無比溫馨的時刻。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 區塊三：我的社群媒體 -->
+        <section>
+            <h2>📱 歡迎來這些地方找我</h2>
+            <p>我最喜歡在 Instagram 分享限動以及生活碎片，好好生活之餘，也是會乖乖完成跟發展程式技能的！</p>
+            <div class="social-grid">
+                <a href="https://www.instagram.com/lian.fln__v7?obrf=a216Y2MyeGQwOGNs&utm_source=qr" target="_blank" class="social-card">
+                    <span class="social-icon">📸</span>
+                    <div>
+                        <h3>Instagram</h3>
+                        <p>@lian.fln__v7｜日常攝影、探店與限時動態</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/lian0201" target="_blank" class="social-card">
+                    <span class="social-icon">💻</span>
+                    <div>
+                        <h3>GitHub</h3>
+                        <p>@lian0201｜課堂專案與程式練習紀錄</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 那些建構劉竣銓的碎片們 | 網頁程式設計期中專案</p>
+    </footer>
+
+    <!-- 點擊照片後彈出的放大燈箱（預設隱藏） -->
+    <div id="lightbox" class="lightbox-modal" onclick="closeLightbox(event)">
+        <div class="lightbox-content">
+            <span class="lightbox-close" onclick="closeLightbox(event)">&times;</span>
+            <img id="lightbox-img" src="" alt="放大日常照片">
+            <h3 id="lightbox-title"></h3>
+            <p id="lightbox-desc"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

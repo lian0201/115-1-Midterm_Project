@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日常私房指南｜我的大學生活指南</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>日常生活小撇步</h1>
+        <p>不知道下課要去哪、週末怎麼過？說不定我去過的地方，就會成為你的下一個選擇。</p>
+    </header>
+
+    <nav>
+        <a href="index.html">首頁導覽</a>
+        <a href="clubs.html">學校生活</a>
+        <a href="lifestyle.html" class="active">日常生活小撇步</a>
+        <a href="social.html">你真的認識我嗎</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>如果生活過不去 那就換一種方式過吧！</h2>
+            <p>在生活當中塞入各種不一樣的小趣味，說不定會大大提升生活的體驗喔！</p>
+
+            <!-- 互動按鈕群[cite: 2] -->
+            <div>
+                <button class="btn" onclick="showGuide('cafe')">☕ 找安靜咖啡廳</button>
+                <button class="btn" onclick="showGuide('food')">🍜 學校附近私藏好店</button>
+                <button class="btn" onclick="showGuide('relax')">🎧 單純休息跟放鬆</button>
+            </div>
+
+            <!-- JavaScript 動態更新內容的目標區域 -->
+            <div class="interactive-box guide-flex" id="guide-display">
+                <!-- 左側小圖（點擊按鈕後才顯示） -->
+                <img id="guide-img" src="" alt="推薦地點照片" class="guide-photo" style="display: none;">
+
+                <!-- 右側文字與店家連結 -->
+                <div class="guide-info">
+                    <h3 id="guide-title">上方按鈕請選一個吧！</h3>
+                    <p id="guide-desc">點擊按鈕後，這裡會根據你的需求切換我的私房推薦跟心得。</p>
+                    <p><strong>推薦指數與小提醒：</strong><span id="guide-tip">等待選擇中...</span></p>
+
+                    <!-- 店家 IG 與外部連結（點擊按鈕後才顯示） -->
+                    <div class="guide-links" id="guide-links" style="display: none;">
+                        <a id="guide-ig" href="#" target="_blank">📸 店家 Instagram</a>
+                        <a id="guide-link" href="#" target="_blank">📍 Google 地圖 / 店家連結</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>我的日常隨身清單</h2>
+            <ul>
+                <li><strong>耳機</strong>：通勤與在咖啡廳專注時的必備神器。</li>
+                <li><strong>行動電源</strong>：因為很常拍限時動態，手機電量永遠在告急。</li>
+                <li><strong>筆電</strong>：隨時隨地都能切換成趕作業模式。</li>
+                <li><strong>外套</strong>：避免突然降溫或是冷氣開太強。</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 那些建構劉竣銓的碎片們 | 網頁程式設計期中專案</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
